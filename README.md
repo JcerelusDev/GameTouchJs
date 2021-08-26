@@ -7,7 +7,7 @@ a swiped button with fewer lines of codes
 </code></pre>
 The documentation link :
 
-https://github.com/JcerelusDev/swipeJs/wiki
+<a href="https://github.com/JcerelusDev/swipeJs/wiki">Docs</a>
 
 
 
