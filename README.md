@@ -1,6 +1,6 @@
 #### swiperJs 
 is a lightweight library designed to create
-a swiped button with fewer lines of codes.
+a swiper button with fewer lines of codes.
 
 
 <pre><code>
