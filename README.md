@@ -4,7 +4,7 @@ a  button controller for mobile device ( Smartphones and Tablets ) games with fe
 
 
 <pre><code>
-&lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/GameTouchJs/gametouch.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/gh/JcerelusDev/GameTouchJs/gametouch.min.js"&gt;&lt;/script&gt;
 </code></pre>
 The documentation link :
 
