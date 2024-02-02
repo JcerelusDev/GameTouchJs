@@ -2,7 +2,8 @@ const joystick=document.createElement("template"),cross=document.createElement("
 <style>
 #btncontainer{position:fixed;background:rgba(255,255,255,.2);width:100px;height:100px;border-radius:50%;border:6px double gray}#btncontainer:before{content:'';position:absolute;background:rgba(0,255,0,.01);width:30px;height:30px;border-radius:50%;border:6px solid gray;left:26.7%;top:30px}#movable{position:absolute;background:rgba(0,0,0,.1);width:50px;height:50px;border-radius:50%;top:23.3%;left:20.3%;border:3px dotted gray}
 </style>
-`,cross.innerHTML=`
+`
+ cross.innerHTML=`
 <style>
 .cross-container{position:fixed;width:180px;height:180px;left:25%;top:5%;z-index:9999;border:none}.down,.right,.up{width:50px;height:50px;background:rgba(3,3,3,.08);position:relative}.left::before{content:'';width:0;height:0;border-style:solid;border-width:15px 25px 15px 0;border-color:transparent rgba(255,255,255,.5) transparent transparent;position:absolute;top:50%;right:30%;transform:translate(0,-50%)}.down::before,.right::before,.up::before{content:'';width:0;height:0;border-style:solid;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.right{top:35%;left:38%}.right::before{border-width:15px 0 15px 25px;border-color:transparent transparent transparent rgba(255,255,255,.5)}.up{right:25%}.up::before{border-width:0 15px 25px;border-color:transparent transparent rgba(255,255,255,.5)}.down{top:40%;left:35%}.down::before{border-width:25px 15px 0;border-color:rgba(255,255,255,.5) transparent transparent}
 </style>
