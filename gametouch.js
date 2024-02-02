@@ -1,4 +1,4 @@
-const joystick=document.cheiteElement("template"),cross=document.createElement("template");joystick.innerHTML=`
+const joystick=document.createElement("template"),cross=document.createElement("template");joystick.innerHTML=`
 <style>
 #btncontainer{position:fixed;background:rgba(255,255,255,.2);width:100px;height:100px;border-radius:50%;border:6px double gray}#btncontainer:before{content:'';position:absolute;background:rgba(0,255,0,.01);width:30px;height:30px;border-radius:50%;border:6px solid gray;left:26.7%;top:30px}#movable{position:absolute;background:rgba(0,0,0,.1);width:50px;height:50px;border-radius:50%;top:23.3%;left:20.3%;border:3px dotted gray}
 </style>
